@@ -19,7 +19,7 @@ Abre <http://127.0.0.1:5000>.
 
 1. Crea un repositorio **público** en GitHub y súbele los archivos de este proyecto.
 2. En Render, elige **New + → Blueprint** y conecta ese repositorio.
-3. Render leerá `render.yaml`, instalará las dependencias y publicará el servicio web. Al terminar, mostrará la dirección pública del sitio.
+3. Render leerá `render.yaml`, instalará las dependencias y publicará el servicio web en el plan gratuito. Al terminar, mostrará la dirección pública del sitio. En el plan gratuito, el servicio puede tardar unos segundos en despertar si estuvo inactivo.
 4. Los siguientes cambios enviados a la rama conectada se podrán desplegar automáticamente.
 
 La ruta `/healthz` permite que Render compruebe que el servicio está respondiendo.
